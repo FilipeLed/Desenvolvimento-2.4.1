@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Colonial';
+    src: url('Colonial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family:  'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: auto;
+    color: #18206F;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px rgba(66, 100, 70, 0.514);
+    width: 800px;
+    padding: 10px;
+    margin: 10px auto;
+}
+/* Estilos para o título principal */
+#titulo-principal {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Colonial', Arial;
+}
+.titulo{
+    font-size: 1.8em;
+    font-family:  'Times New Roman', Times, serif;
+}
+.subtitulo{
+    font-size: 1.5em;
+    font-family:  'Times New Roman', Times, serif;
+}
+#imgPrincipal{
+    width: 70%;
+    padding: 0% 15%;
+}
+#imgRecife{
+    width: 100%;
+    padding: 0%;
+}
+.lugar{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px rgba(66, 100, 70, 0.514);
+    width: 800px;
+    padding: 10px;
+    margin: 0% auto 2% auto;
+}
+body{
+    background-image: linear-gradient(to right,#d44e30,#FCEA86,#6181AA);
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Estilos para links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 16px
+}
+a:visited{
+    color: #3b4e66;
+}
+a:hover{
+    text-decoration: underline;
+    color: #18206F;
+    font-weight: bold;
+}
+a:active{
+    color: #AC3E26;
+    font-weight: bold;
+}
+
+.navegador{
+    padding: 0% 4%;
+    font-family: 'Colonial', Arial;
+    font-size: 1.2em;
+}
+
+/* Estilos para imagens*/
+img{
+    border-radius: 2%;
+}
+
+/* Estilos para o rodapé */
+footer{
+    text-align: center;
+}
